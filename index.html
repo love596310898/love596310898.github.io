@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Aajx</title>
+</head>
+<body>
+<script type="text/javascript">
+    const XMLHTTP = window.XMLHttpRequest || window.ActiveXObject('Microsoft.XMLHTTP')
+    let xml = new XMLHTTP()
+    let url = 'http://localhost:63342/test/domOpration.html?_ijt=tidevghdklabv9nkvipt3h9dev'
+    xml.onreadystatechange = function (ev) {
+        if(Number(xml.status) === 200) {
+            console.log(xml.responseText)
+        }
+    }
+    xml.open('GET', url, true)
+    xml.send(null)
+</script>
+</body>
+</html>
