@@ -1,0 +1,364 @@
+@-webkit-keyframes title{0%{opacity:1;-webkit-transform:scale(3.07);transform:scale(3.07)}
+    70%{opacity:1;-webkit-transform:scale(0.86);transform:scale(0.86)}
+    100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+}
+@-webkit-keyframes title{0%{opacity:1;-webkit-transform:scale(3.07);transform:scale(3.07)}
+    70%{opacity:1;-webkit-transform:scale(0.86);transform:scale(0.86)}
+    100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+}
+@-webkit-keyframes shangchao_open{0%{width:0}
+    100%{width:350px}
+}
+@-webkit-keyframes shangchao{0%{-webkit-transform:scale(1);transform:scale(1)}
+    100%{-webkit-transform:scale(1.08);transform:scale(1.08)}
+}
+@-webkit-keyframes meng{from{opacity:1}
+    to{opacity:0}
+}
+@-webkit-keyframes shangchao_close{from{width:350px}
+    to{width:0}
+}
+@-webkit-keyframes kaimen_l{from{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform-origin:left center 0;-webkit-transform-origin:left center 0}
+    to{transform:matrix3d(0,0,1,0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);-webkit-transform:matrix3d(0,0,1,0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);transform-origin:left center 0;-webkit-transform-origin:left center 0}
+}
+@-webkit-keyframes kaimen_r{from{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform-origin:right center 0;-webkit-transform-origin:right center 0}
+    to{transform:matrix3d(0,0,1,-0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);-webkit-transform:matrix3d(0,0,1,-0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);transform-origin:right center 0;-webkit-transform-origin:right center 0}
+}
+@-webkit-keyframes taiyang{from{-webkit-transform:rotate(0);transform:rotate(0)}
+    to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@-webkit-keyframes taijian{0{right:130px;top:437px}
+23%{right:131px;top:421px}
+57%{right:123px;top:599px;-webkit-transform:rotateY(0);transform:rotateY(0)}
+58%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+100%{right:-98px;top:599px;-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+}
+@-webkit-keyframes shirentou{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 100% 0;-webkit-transform-origin:50% 100% 0}
+    52%{transform:rotate(6deg);-webkit-transform:rotate(6deg);transform-origin:50% 100% 0;-webkit-transform-origin:50% 100% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 100% 0;-webkit-transform-origin:50% 100% 0}
+}
+@-webkit-keyframes liehuarm{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:85% 10% 0;-webkit-transform-origin:85% 10% 0}
+    50%{transform:rotate(20deg);-webkit-transform:rotate(20deg);transform-origin:85% 10% 0;-webkit-transform-origin:85% 10% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:85% 10% 0;-webkit-transform-origin:85% 10% 0}
+}
+@-webkit-keyframes shiren{0%{opacity:0}
+    10%{opacity:1}
+    90%{opacity:1}
+    100%{opacity:0}
+}
+@-webkit-keyframes liehu{0%{opacity:0}
+    10%{opacity:1}
+    90%{opacity:1}
+    100%{opacity:0}
+}
+@-webkit-keyframes lianxiang{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom right 0;-webkit-transform-origin:bottom right 0}
+    10%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom right 0;-webkit-transform-origin:bottom right 0}
+    13%{-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom right 0;-webkit-transform-origin:bottom right 0}
+    95%{opacity:1}
+    100%{opacity:0}
+}
+@-webkit-keyframes tjtoua{0%{opacity:1}
+    100%{opacity:0}
+}
+@-webkit-keyframes tjtoub{0%{opacity:1;transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 70% 0;-webkit-transform-origin:50% 70% 0}
+    50%{opacity:1;transform:rotate(8deg);-webkit-transform:rotate(8deg);transform-origin:50% 70% 0;-webkit-transform-origin:50% 70% 0}
+    100%{opacity:1;transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 70% 0;-webkit-transform-origin:50% 70% 0}
+}
+@-webkit-keyframes tjduihua{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    3%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    4%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    47%{opacity:1}
+    48%{opacity:0}
+    78%{opacity:0}
+    79%{opacity:1}
+    97%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    100%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes toue{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:70% 70% 0;transform-origin:70% 70% 0}
+    50%{-webkit-transform:rotate(4deg);transform:rotate(4deg);-webkit-transform-origin:70% 70% 0;transform-origin:70% 70% 0}
+    100%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:70% 70% 0;transform-origin:70% 70% 0}
+}
+@-webkit-keyframes toud{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:49% 70% 0;transform-origin:49% 70% 0}
+    50%{-webkit-transform:rotate(-6deg);transform:rotate(-6deg);-webkit-transform-origin:49% 70% 0;transform-origin:49% 70% 0}
+    100%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:49% 70% 0;transform-origin:49% 70% 0}
+}
+@-webkit-keyframes touc{0%{top:1130px}
+    48%{top:1133px}
+    100%{top:1130px}
+}
+@-webkit-keyframes toub{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:70% 80% 0;transform-origin:70% 80% 0}
+    50%{-webkit-transform:rotate(5deg);transform:rotate(5deg);-webkit-transform-origin:70% 80% 0;transform-origin:70% 80% 0}
+    100%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:70% 80% 0;transform-origin:70% 80% 0}
+}
+@-webkit-keyframes toua{0%{top:1289px}
+    45%{top:1293px}
+    100%{top:1289px}
+}
+@-webkit-keyframes chodo{0%{top:-443px}
+    18%{top:0}
+    28%{top:0;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:74% 11% 0;transform-origin:74% 11% 0}
+    31%{top:0;-webkit-transform:scale(2.22);transform:scale(2.22);-webkit-transform-origin:74% 11% 0;transform-origin:74% 11% 0}
+    98%{top:0;-webkit-transform:scale(2.22);transform:scale(2.22);-webkit-transform-origin:74% 11% 0;transform-origin:74% 11% 0}
+    100%{top:0;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:68% 8% 0;transform-origin:68% 8% 0}
+}
+@-webkit-keyframes talka{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    9%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    14%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    93%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    100%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes talkb{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    10%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    13%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    92%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    100%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes talkc{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    11%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    15%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    91%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    100%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes talkd{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    12%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    17%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    90%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    100%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes talke{0%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    15%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    21%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    88%{opacity:1;-webkit-transform:scale(1);transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    100%{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes zhuanshen{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+    100%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+}
+@-webkit-keyframes zoutjLeft{from{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);background:url(../images/zoutj.png);background-position:0 0}
+    to{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);background:url(../images/zoutj.png);background-position:-3000px 0}
+}
+@-webkit-keyframes zoutj{from{background:url(../images/zoutj.png);background-position:0 0}
+    to{background:url(../images/zoutj.png);background-position:-3000px 0}
+}
+@-webkit-keyframes tjhaveBmh{from{background:url(../images/zoubmh.png);background-position:0 0}
+    to{background:url(../images/zoubmh.png);background-position:-3000px 0}
+}
+@-webkit-keyframes tjhaveBmhLeft{from{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);background:url(../images/zoubmh.png);background-position:0 0}
+    to{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);background:url(../images/zoubmh.png);background-position:-3000px 0}
+}
+@-webkit-keyframes zouthlLeft{from{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);background:url(../images/zouthl.png);background-position:0 0}
+    to{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);background:url(../images/zouthl.png);background-position:-4200px 0}
+}
+@-webkit-keyframes zouthl{from{background:url(../images/zouthl.png);background-position:0 0}
+    to{background:url(../images/zouthl.png);background-position:-4200px 0}
+}
+@-webkit-keyframes zhishi_yz{0%{top:0}
+    52%{top:-14px}
+    100%{top:0}
+}
+@-webkit-keyframes zhishia{0%{top:-85px}
+    52%{top:-71px}
+    100%{top:-85px}
+}
+@-webkit-keyframes zhishib{0%{left:600px}
+    52%{left:637px}
+    100%{left:600px}
+}
+@-webkit-keyframes zhishic{0%{left:70px}
+    52%{left:33px}
+    100%{left:70px}
+}
+@-webkit-keyframes zouzl{from{background-position:0 0}
+    to{background-position:-1800px 0}
+}
+@-webkit-keyframes zhulan{0{left:1917px}
+50%{left:1691px}
+100%{left:1917px}
+}
+@-webkit-keyframes zlzhuan{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+    49%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+    50%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+    99%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+    100%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+}
+@-webkit-keyframes zoubdlb{from{background-position:0 0}
+    to{background-position:-1350px 0}
+}
+@-webkit-keyframes budian{0{left:3394px}
+50%{left:3252px}
+100%{left:3394px}
+}
+@-webkit-keyframes bdzhuan{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+    49%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+    50%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+    99%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
+    100%{-webkit-transform:rotateY(0);transform:rotateY(0)}
+}
+@-webkit-keyframes yuanyu{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 0 0;-webkit-transform-origin:50% 0 0}
+    50%{transform:rotate(-8deg);-webkit-transform:rotate(-8deg);transform-origin:50% 0 0;-webkit-transform-origin:50% 0 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 0 0;-webkit-transform-origin:50% 0 0}
+}
+@-webkit-keyframes yuguang{0%{opacity:1;transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 0 0;-webkit-transform-origin:50% 0 0}
+    50%{opacity:0;transform:rotate(-8deg);-webkit-transform:rotate(-8deg);transform-origin:50% 0 0;-webkit-transform-origin:50% 0 0}
+    100%{opacity:1;transform:rotate(0);-webkit-transform:rotate(0);transform-origin:50% 0 0;-webkit-transform-origin:50% 0 0}
+}
+@-webkit-keyframes erhu{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:60% 10% 0;-webkit-transform-origin:60% 10% 0}
+    36%{transform:rotate(-21deg);-webkit-transform:rotate(-21deg);transform-origin:60% 10% 0;-webkit-transform-origin:60% 10% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:60% 10% 0;-webkit-transform-origin:60% 10% 0}
+}
+@-webkit-keyframes yinfu{0%{transform:rotate(0);-webkit-transform:rotate(0)}
+    43%{transform:rotate(-21deg);-webkit-transform:rotate(-21deg)}
+    100%{transform:rotate(0);-webkit-transform:rotate(0)}
+}
+@-webkit-keyframes datie{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:63% 76% 0;-webkit-transform-origin:63% 76% 0}
+    32%{transform:rotate(-76deg);-webkit-transform:rotate(-76deg);transform-origin:63% 76% 0;-webkit-transform-origin:63% 76% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:63% 76% 0;-webkit-transform-origin:63% 76% 0}
+}
+@-webkit-keyframes huoxing{0%{opacity:1}
+    21%{-webkit-transform:scale(0);transform:scale(0)}
+    36%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+    52%{opacity:0}
+    85%{-webkit-transform:scale(0);transform:scale(0)}
+    100%{opacity:0}
+}
+@-webkit-keyframes tiemo{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:0 70% 0;-webkit-transform-origin:0 70% 0}
+    47%{transform:rotate(20deg);-webkit-transform:rotate(20deg);transform-origin:0 70% 0;-webkit-transform-origin:0 70% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:0 70% 0;-webkit-transform-origin:0 70% 0}
+}
+@-webkit-keyframes titou{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:90% 80% 0;-webkit-transform-origin:90% 80% 0}
+    47%{transform:rotate(13deg);-webkit-transform:rotate(13deg);transform-origin:90% 80% 0;-webkit-transform-origin:90% 80% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:90% 80% 0;-webkit-transform-origin:90% 80% 0}
+}
+@-webkit-keyframes hejiua{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:5% 85% 0;-webkit-transform-origin:5% 85% 0}
+    52%{transform:rotate(16deg);-webkit-transform:rotate(16deg);transform-origin:5% 85% 0;-webkit-transform-origin:5% 85% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:5% 85% 0;-webkit-transform-origin:5% 85% 0}
+}
+@-webkit-keyframes hejiub{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:90% 85% 0;-webkit-transform-origin:90% 85% 0}
+    48%{transform:rotate(-14deg);-webkit-transform:rotate(-14deg);transform-origin:90% 85% 0;-webkit-transform-origin:90% 85% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:90% 85% 0;-webkit-transform-origin:90% 85% 0}
+}
+@-webkit-keyframes yan{0%{opacity:1}
+    4%{opacity:0}
+    100%{opacity:1}
+}
+@-webkit-keyframes guang{0%{opacity:1}
+    52%{opacity:0}
+    100%{opacity:1}
+}
+@-webkit-keyframes ciqi{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:80% 60% 0;-webkit-transform-origin:80% 60% 0}
+    56%{transform:rotate(26deg);-webkit-transform:rotate(26deg);transform-origin:80% 60% 0;-webkit-transform-origin:80% 60% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:80% 60% 0;-webkit-transform-origin:80% 60% 0}
+}
+@-webkit-keyframes zhaoxiang{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:5% 80% 0;-webkit-transform-origin:5% 80% 0}
+    49%{transform:rotate(20deg);-webkit-transform:rotate(20deg);transform-origin:5% 80% 0;-webkit-transform-origin:5% 80% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:5% 80% 0;-webkit-transform-origin:5% 80% 0}
+}
+@-webkit-keyframes yongzheng{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:90% 80% 0;-webkit-transform-origin:90% 80% 0}
+    50%{transform:rotate(-16deg);-webkit-transform:rotate(-16deg);transform-origin:90% 80% 0;-webkit-transform-origin:90% 80% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:90% 80% 0;-webkit-transform-origin:90% 80% 0}
+}
+@-webkit-keyframes shanguang{0%{opacity:0}
+    15%{opacity:1}
+    37%{opacity:0}
+    100%{opacity:0}
+}
+@-webkit-keyframes tjstreet{from{left:-150px}
+    to{left:240px}
+}
+@-webkit-keyframes duihuaStart{0{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+71%{opacity:1;transform:scale(1.1);-webkit-transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+100%{opacity:1;transform:scale(1);-webkit-transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes duihuaEnd{from{opacity:1;transform:scale(1);-webkit-transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+    to{opacity:0;transform:scale(0);-webkit-transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes icon_have{0{opacity:1;-webkit-transform:scale(0);transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+19%{opacity:1;transform:scale(1.1);-webkit-transform:scale(1.1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+27%{opacity:1;transform:scale(1);-webkit-transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+85%{opacity:1;transform:scale(1);-webkit-transform:scale(1);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+100%{opacity:0;transform:scale(0);-webkit-transform:scale(0);transform-origin:bottom center 0;-webkit-transform-origin:bottom center 0}
+}
+@-webkit-keyframes rw_btn{from{-webkit-transform:scale(1);transform:scale(1)}
+    to{-webkit-transform:scale(1.2);transform:scale(1.2)}
+}
+@-webkit-keyframes tancengStart{0{-webkit-transform:scale(0);transform:scale(0)}
+67%{-webkit-transform:scale(1.1);transform:scale(1.1)}
+100%{-webkit-transform:scale(1);transform:scale(1)}
+}
+@-webkit-keyframes tancengEnd{0%{-webkit-transform:scale(1);transform:scale(1)}
+    67%{-webkit-transform:scale(1.1);transform:scale(1.1)}
+    100%{-webkit-transform:scale(0);transform:scale(0)}
+}
+@-webkit-keyframes music{0%{transform:rotate(0);-webkit-transform:rotate(0)}
+    50%{transform:rotate(-15deg);-webkit-transform:rotate(-15deg)}
+    100%{transform:rotate(0);-webkit-transform:rotate(0)}
+}
+@-webkit-keyframes maoyan{0%{top:0;opacity:0}
+    50%{top:0;opacity:1}
+    100%{top:-111px;opacity:0}
+}
+@-webkit-keyframes wuya{0%{left:750px}
+    99%{left:-203px;opacity:1}
+    100%{opacity:0}
+}
+@-webkit-keyframes yz_gebo{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:85% 80% 0;-webkit-transform-origin:85% 80% 0}
+    50%{transform:rotate(-46deg);-webkit-transform:rotate(-46deg);transform-origin:85% 80% 0;-webkit-transform-origin:85% 80% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:100% 80% 0;-webkit-transform-origin:85% 80% 0}
+}
+@-webkit-keyframes chodo_toua{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:60% 80% 0;-webkit-transform-origin:60% 80% 0}
+    50%{transform:rotate(4deg);-webkit-transform:rotate(4deg);transform-origin:60% 80% 0;-webkit-transform-origin:60% 80% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:60% 80% 0;-webkit-transform-origin:60% 80% 0}
+}
+@-webkit-keyframes chodo_toub{0%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:60% 80% 0;-webkit-transform-origin:60% 80% 0}
+    50%{transform:rotate(5deg);-webkit-transform:rotate(5deg);transform-origin:60% 80% 0;-webkit-transform-origin:60% 80% 0}
+    100%{transform:rotate(0);-webkit-transform:rotate(0);transform-origin:60% 80% 0;-webkit-transform-origin:60% 80% 0}
+}
+@-webkit-keyframes chodo_touc{0%{top:1007px}
+    50%{top:1012px}
+    100%{top:1007px}
+}
+@-webkit-keyframes zoutjRight{from{left:240px}
+    to{left:750px}
+}
+@-webkit-keyframes zouyzRight{from{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);right:0}
+    to{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);right:-200px}
+}
+@-webkit-keyframes guanmen_l{from{opacity:1;transform:matrix3d(0,0,1,0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);-webkit-transform:matrix3d(0,0,1,0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);transform-origin:left center 0;-webkit-transform-origin:left center 0}
+    to{opacity:1;transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform-origin:left center 0;-webkit-transform-origin:left center 0}
+}
+@-webkit-keyframes guanmen_r{from{opacity:1;transform:matrix3d(0,0,1,-0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);-webkit-transform:matrix3d(0,0,1,-0.0005,0,1,0,0,-1,0,0,0,0,0,0,1);transform-origin:right center 0;-webkit-transform-origin:right center 0}
+    to{opacity:1;transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform-origin:right center 0;-webkit-transform-origin:right center 0}
+}
+@-webkit-keyframes men_ceng{from{opacity:0}
+    to{opacity:1}
+}
+@-webkit-keyframes sz_con{from{opacity:1;height:140px}
+    to{opacity:1;height:790px}
+}
+@-webkit-keyframes canjia_btn{from{-webkit-transform:scale(1);transform:scale(1)}
+    to{-webkit-transform:scale(1.1);transform:scale(1.1)}
+}
+@-webkit-keyframes fivebtn{0{opacity:1;-webkit-transform:scale(0);transform:scale(0)}
+71%{opacity:1;-webkit-transform:scale(1.1);transform:scale(1.1)}
+100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+}
+@-webkit-keyframes logo{from{opacity:0}
+    to{opacity:1}
+}
+@-webkit-keyframes shangbanshen{0{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:60% 95% 0;transform-origin:60% 95% 0}
+38%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg);-webkit-transform-origin:60% 95% 0;transform-origin:60% 95% 0}
+100%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg);-webkit-transform-origin:60% 95% 0;transform-origin:60% 95% 0}
+}
+@-webkit-keyframes jian{0%{right:0;top:20px}
+    20%{right:0;top:20px}
+    38%{right:-383px;top:-333px}
+    100%{right:-383px;top:-333px}
+}
+@-webkit-keyframes xian{0%{background:url(../images/laxian.png) no-repeat}
+    19%{background:url(../images/laxian.png) no-repeat}
+    20%{background:url(../images/xian.png) no-repeat;-webkit-transform:rotate(-10deg);transform:rotate(-10deg);left:103px;top:15px}
+    100%{background:url(../images/xian.png) no-repeat;-webkit-transform:rotate(-10deg);transform:rotate(-10deg);left:103px;top:15px}
+}
+@-webkit-keyframes chodob{from{opacity:0}
+    to{opacity:1}
+}

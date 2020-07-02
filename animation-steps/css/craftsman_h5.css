@@ -1,0 +1,2079 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none
+}
+
+#shareBoxLayout {
+    display: none
+}
+
+img {
+    display: block
+}
+
+.wrap {
+    width: 750px;
+    position: relative
+}
+
+.craftsman_h5_content {
+    background: #000;
+    width: 750px;
+    height: 1206px;
+    overflow: hidden;
+    position: absolute
+}
+
+.craftsman_h5_content div {
+    position: absolute
+}
+
+.loading-wrapper {
+    position: fixed;
+    background: #fff;
+    width: 750px;
+    height: 1206px;
+    z-index: 999
+}
+
+.loading-wrapper img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -120px;
+    margin-top: -120px
+}
+
+.wbtn {
+    width: 250px;
+    height: 71px;
+    top: 20px;
+    right: 0;
+    z-index: 10
+}
+
+.wbtn .share {
+    width: 64px;
+    height: 70px;
+    background-position: 0 0;
+    top: 0;
+    right: 156px
+}
+
+.wbtn .music {
+    width: 71px;
+    height: 71px;
+    background-position: -72px -72px;
+    top: 0;
+    right: 44px
+}
+
+.wbtn .music .yin {
+    width: 51px;
+    height: 71px;
+    background-position: -138px -250px;
+    left: 15px
+}
+
+.wbtn .music .yin.active {
+    -webkit-animation: music 1.2s infinite;
+    animation: music 1.2s infinite
+}
+
+.wbtn .music.active {
+    background-position: 0 -72px
+}
+
+.wbtn .music.active .yin {
+    background-position: -84px -250px
+}
+
+.cover {
+    z-index: 8;
+    width: 750px;
+    height: 1206px
+}
+
+.cover .men {
+    width: 750px;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.cover .men div {
+    width: 378px;
+    height: 100%;
+    top: 0
+}
+
+.cover .men .left_men {
+    background: url(../images/men_left.png?23) no-repeat right center;
+    background-size: cover;
+    left: 0
+}
+
+.cover .men .right_men {
+    background: url(../images/men_right.png?23) no-repeat left center;
+    background-size: cover;
+    right: 0
+}
+
+.cover .fonts {
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+.cover .fonts .index_logo {
+    opacity: 1;
+    width: 100%;
+    height: 71px;
+    top: 15px;
+    left: 15px;
+    background: url() no-repeat left top
+}
+
+.cover .fonts .index_font {
+    opacity: 0;
+    width: 574px;
+    height: 685px;
+    left: 88px;
+    margin: 145px auto 0;
+    background: url(../images/font.png?23) no-repeat;
+    background-size: cover
+}
+
+.cover .meng {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background: url(../images/meng_01.png?23);
+    top: 0;
+    left: 0
+}
+
+.cover .meng .shangchao {
+    position: initial;
+    margin: 790px auto;
+    display: block;
+    width: 0;
+    height: 178px;
+    background-size: cover;
+    background: url(../images/shangchao.png?23) no-repeat center center
+}
+
+.cover.load .index_font {
+    -webkit-animation: title .52s ease-out .3s forwards;
+    animation: title .52s ease-out .3s forwards
+}
+
+.cover.load .shangchao.open {
+    -webkit-animation: shangchao_open .5s linear .3s forwards;
+    animation: shangchao_open .5s linear .3s forwards
+}
+
+.cover.load .shangchao.active {
+    width: 350px;
+    -webkit-animation: shangchao .4s linear .6s infinite alternate;
+    animation: shangchao .4s linear .6s infinite alternate
+}
+
+.cover.active .meng {
+    -webkit-animation: meng .2s .5s forwards;
+    animation: meng .2s .5s forwards
+}
+
+.cover.active .shangchao.close {
+    -webkit-animation: shangchao_close .5s forwards;
+    animation: shangchao_close .5s forwards
+}
+
+.cover.active .fonts {
+    -webkit-animation: meng .4s .6s forwards;
+    animation: meng .4s .6s forwards
+}
+
+.cover.active .left_men {
+    -webkit-animation: kaimen_l .5s .5s ease-in-out forwards;
+    animation: kaimen_l .5s .5s ease-in-out forwards
+}
+
+.cover.active .right_men {
+    -webkit-animation: kaimen_r .5s .5s ease-in-out forwards;
+    animation: kaimen_r .5s .5s ease-in-out forwards
+}
+
+.chodo {
+    display: none;
+    z-index: 7;
+    width: 750px;
+    height: 1206px;
+    right: 0;
+    top: 0;
+    overflow: hidden
+}
+
+.chodo .chodo_con {
+    top: -443px;
+    width: 750px;
+    height: 1649px;
+    background: url(../images/datang_bg.jpg?23) no-repeat
+}
+
+.chodo .chodo_con .tou1 {
+    width: 129px;
+    height: 123px;
+    background: url(../images/tou1.png?23);
+    top: 1289px;
+    right: 10px
+}
+
+.chodo .chodo_con .tou2 {
+    width: 118px;
+    height: 150px;
+    background: url(../images/tou2.png?23);
+    top: 1285px;
+    left: 158px
+}
+
+.chodo .chodo_con .tou3 {
+    width: 123px;
+    height: 148px;
+    background: url(../images/tou3.png?23);
+    top: 1130px;
+    left: 19px
+}
+
+.chodo .chodo_con .tou4 {
+    width: 131px;
+    height: 142px;
+    background: url(../images/tou4.png?23);
+    top: 1001px;
+    right: 20px
+}
+
+.chodo .chodo_con .tou5 {
+    width: 127px;
+    height: 146px;
+    background: url(../images/tou5.png?23);
+    top: 862px;
+    left: 178px
+}
+
+.chodo .chodo_con .zhuanshen2 {
+    width: 134px;
+    height: 240px;
+    background: url(../images/zhuanshen2.png?23);
+    top: 999px;
+    right: 170px
+}
+
+.chodo .chodo_con .ren33 {
+    width: 130px;
+    height: 240px;
+    background: url(../images/ren33.png?23);
+    top: 1121px;
+    right: 146px
+}
+
+.chodo .chodo_con .zhuanshen1 {
+    width: 134px;
+    height: 240px;
+    background: url(../images/zhuanshen1.png?23);
+    top: 1289px;
+    right: 155px
+}
+
+.chodo .chodo_con .talk {
+    opacity: 0;
+    width: 121px;
+    padding: 23px 35px 47px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "STHeiti", "Microsoft Yahei"
+}
+
+.chodo .chodo_con .talk2, .chodo .chodo_con .talk3, .chodo .chodo_con .talk5 {
+    background: url(../images/duihuaqipao_l.png?23) no-repeat
+}
+
+.chodo .chodo_con .talk1, .chodo .chodo_con .talk4 {
+    background: url(../images/duihuaqipao_r.png?23) no-repeat
+}
+
+.chodo .chodo_con .talk1 {
+    top: 1177px;
+    left: 530px
+}
+
+.chodo .chodo_con .talk2 {
+    top: 1173px;
+    left: 170px
+}
+
+.chodo .chodo_con .talk3 {
+    top: 1021px;
+    left: 40px
+}
+
+.chodo .chodo_con .talk4 {
+    top: 898px;
+    left: 510px;
+    line-height: 36px;
+    padding: 14px 35px 44px
+}
+
+.chodo .chodo_con .talk5 {
+    top: 751px;
+    left: 195px;
+    width: 141px;
+    line-height: 36px;
+    padding: 15px 20px 43px 29px
+}
+
+.chodo .chodo_con .taijian {
+    width: 98px;
+    height: 245px;
+    right: 130px;
+    top: 437px
+}
+
+.chodo .chodo_con .taijian .tjshen {
+    width: 58px;
+    height: 133px;
+    background: url(../images/taijian.png?23);
+    bottom: 0;
+    left: 24px
+}
+
+.chodo .chodo_con .taijian .tjtou1 {
+    opacity: 1;
+    width: 98px;
+    height: 154px;
+    background: url(../images/taijian1.png?23)
+}
+
+.chodo .chodo_con .taijian .tjtou2 {
+    opacity: 0;
+    width: 98px;
+    height: 154px;
+    background: url(../images/taijian2.png?23)
+}
+
+.chodo .chodo_con .taijian .lianxiang {
+    opacity: 0;
+    width: 261px;
+    height: 296px;
+    background: url(../images/lianxiangqipao.png?23);
+    top: -277px;
+    left: -195px
+}
+
+.chodo .chodo_con .taijian .lianxiang .shiren {
+    opacity: 0;
+    width: 221px;
+    height: 237px;
+    background: url(../images/shiren.png?23);
+    top: 20px;
+    left: -5px
+}
+
+.chodo .chodo_con .taijian .lianxiang .shiren .shirentou {
+    width: 121px;
+    height: 109px;
+    background: url(../images/shirentou.png?23);
+    left: 42px;
+    top: 2px
+}
+
+.chodo .chodo_con .taijian .lianxiang .liehu {
+    opacity: 0;
+    width: 123px;
+    height: 230px;
+    top: 20px;
+    left: 85px
+}
+
+.chodo .chodo_con .taijian .lianxiang .liehu .liehushen {
+    width: 123px;
+    height: 230px;
+    background: url(../images/liehu.png?23)
+}
+
+.chodo .chodo_con .taijian .lianxiang .liehu .liehuarm {
+    width: 79px;
+    height: 104px;
+    background: url(../images/gebo.png?23);
+    top: 111px;
+    left: -28px
+}
+
+.chodo .chodo_con .taijian .tjduihua {
+    opacity: 0;
+    width: 236px;
+    height: 146px;
+    background: url(../images/duihua2.png?23);
+    top: -130px;
+    left: -120px
+}
+
+.chodo .chodo_con .taijian .tjduihua p {
+    width: 192px;
+    font-family: "STHeiti", "Microsoft Yahei";
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.chodo.active .chodo_con {
+    -webkit-animation: chodo 18.84s linear forwards;
+    animation: chodo 18.84s linear forwards
+}
+
+.chodo.active .talk1 {
+    -webkit-animation: talka 4.56s .24s ease-in-out forwards;
+    animation: talka 4.56s .24s ease-in-out forwards
+}
+
+.chodo.active .talk2 {
+    -webkit-animation: talkb 4.16s .8s ease-in-out forwards;
+    animation: talkb 4.16s .8s ease-in-out forwards
+}
+
+.chodo.active .talk3 {
+    -webkit-animation: talkc 3.76s 1.36s ease-in-out forwards;
+    animation: talkc 3.76s 1.36s ease-in-out forwards
+}
+
+.chodo.active .talk4 {
+    -webkit-animation: talkd 3.24s 2.04s ease-in-out forwards;
+    animation: talkd 3.24s 2.04s ease-in-out forwards
+}
+
+.chodo.active .talk5 {
+    -webkit-animation: talke 2.68s 2.84s ease-in-out forwards;
+    animation: talke 2.68s 2.84s ease-in-out forwards
+}
+
+.chodo.active .zhuanshen1 {
+    -webkit-animation: zhuanshen 0s .8s forwards;
+    animation: zhuanshen 0s .8s forwards
+}
+
+.chodo.active .zhuanshen2 {
+    -webkit-animation: zhuanshen 0s 2.6s forwards;
+    animation: zhuanshen 0s 2.6s forwards
+}
+
+.chodo.active .tou1 {
+    -webkit-animation: toua 1.16s .2s infinite;
+    animation: toua 1.16s .2s infinite
+}
+
+.chodo.active .tou2 {
+    -webkit-animation: toub .96s .84s infinite;
+    animation: toub .96s .84s infinite
+}
+
+.chodo.active .tou3 {
+    -webkit-animation: touc 1s 2.04s infinite;
+    animation: touc 1s 2.04s infinite
+}
+
+.chodo.active .tou4 {
+    -webkit-animation: toud .32s 2.52s infinite;
+    animation: toud .32s 2.04s infinite
+}
+
+.chodo.active .tou5 {
+    -webkit-animation: toue .56s 3.32s infinite;
+    animation: toue .56s 3.32s infinite
+}
+
+.chodo.active .tjtou1 {
+    -webkit-animation: tjtoua 0s 5.24s forwards;
+    animation: tjtoua 0s 5.24s forwards
+}
+
+.chodo.active .tjtou2 {
+    -webkit-animation: tjtoub 1.36s 5.24s 10 forwards;
+    animation: tjtoub 1.36s 5.24s 10 forwards
+}
+
+.chodo.active .tjduihua {
+    -webkit-animation: tjduihua 13.6s 5.24s 1;
+    animation: tjduihua 13.6s 5.24s 1
+}
+
+.chodo.active .lianxiang {
+    -webkit-animation: lianxiang 4.16s 11.62s forwards;
+    animation: lianxiang 4.16s 11.62s forwards
+}
+
+.chodo.active .liehu {
+    -webkit-animation: liehu 1.9s 12.08s forwards;
+    animation: liehu 1.9s 12.08s forwards
+}
+
+.chodo.active .liehuarm {
+    -webkit-animation: liehuarm .32s 12.28s infinite;
+    animation: liehuarm .32s 12.28s infinite
+}
+
+.chodo.active .shiren {
+    -webkit-animation: shiren 1.9s 13.78s forwards;
+    animation: shiren 1.9s 13.78s forwards
+}
+
+.chodo.active .shirentou {
+    -webkit-animation: shirentou 1.16s 13.98s infinite;
+    animation: shirentou 1.16s 13.98s infinite
+}
+
+.chodo.active .taijian {
+    -webkit-animation: taijian .7s 18.84s forwards;
+    animation: taijian .7s 18.84s forwards
+}
+
+.sprite1 {
+    background: url(../images/sprite1.png?23) no-repeat
+}
+
+.street {
+    display: none;
+    z-index: 6;
+    overflow: hidden;
+    width: 6750px;
+    height: 1206px;
+    top: 0;
+    left: -365px;
+    background: #ebe2ab
+}
+
+.street .icon2 {
+    background: url(../images/icon2.png?23) no-repeat
+}
+
+.street .icon3 {
+    opacity: 0;
+    width: 188px;
+    height: 76px;
+    background: url(../images/icon3.png?23) no-repeat
+}
+
+.street .icon3.active {
+    -webkit-animation: icon_have 2.08s forwards;
+    animation: icon_have 2.08s forwards
+}
+
+.street .zhishi1 {
+    width: 70px;
+    height: 80px;
+    background-position: -425px -149px;
+    -webkit-animation: zhishia 1.24s infinite;
+    animation: zhishia 1.24s infinite
+}
+
+.street .zhishi2 {
+    display: none;
+    width: 80px;
+    height: 70px;
+    background-position: 0 -255px;
+    position: fixed;
+    left: 600px;
+    top: 580px
+}
+
+.street .zhishi3 {
+    display: none;
+    width: 80px;
+    height: 70px;
+    background-position: -417px -255px;
+    position: fixed;
+    left: 70px;
+    top: 580px;
+    z-index: 1
+}
+
+.street .zhishi2.active {
+    display: block;
+    -webkit-animation: zhishib 1.24s infinite;
+    animation: zhishib 1.24s infinite
+}
+
+.street .zhishi3.active {
+    display: block;
+    -webkit-animation: zhishic 1.24s infinite;
+    animation: zhishic 1.24s infinite
+}
+
+.street .duihua1 {
+    opacity: 0;
+    width: 236px;
+    height: 146px;
+    background: url(../images/duihua1.png?23)
+}
+
+.street .duihua1 p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    font-family: "STHeiti", "Microsoft Yahei";
+    width: 195px;
+    margin: 22px 0 0 25px
+}
+
+.street .duihua1 .next_btn {
+    width: 18px;
+    height: 13px;
+    background-position: -282px 0;
+    right: 20px;
+    bottom: 42px
+}
+
+.street .duihua2 {
+    opacity: 0;
+    width: 236px;
+    height: 146px;
+    background: url(../images/duihua2.png?23)
+}
+
+.street .duihua2 p {
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    font-family: "STHeiti", "Microsoft Yahei";
+    width: 195px;
+    margin: 22px 0 0 20px
+}
+
+.street .duihua2 p span {
+    font-weight: bold
+}
+
+.street .duihua2 .next_btn {
+    width: 18px;
+    height: 13px;
+    background-position: -282px 0;
+    right: 30px;
+    bottom: 42px
+}
+
+.street .shan {
+    width: 8575px;
+    height: 906px;
+    background: url(../images/shan1.jpg?23) repeat-x;
+    left: -1090px;
+    top: 300px
+}
+
+.street .yun {
+    width: 6070px;
+    height: 380px;
+    background: url(../images/yun.png?23) no-repeat;
+    top: 100px;
+    left: 147px
+}
+
+.street .taiyang {
+    position: fixed;
+    width: 125px;
+    height: 121px;
+    background-position: -375px 0;
+    left: 600px;
+    top: 168px;
+    -webkit-animation: taiyang 18s linear infinite;
+    animation: taiyang 18s linear infinite
+}
+
+.street .jianzhu {
+    width: 6750px;
+    height: 1206px;
+    background: url(../images/jianzhu4.png?23) no-repeat;
+    background-size: cover;
+    left: 0;
+    top: 0
+}
+
+.street .jianzhu .tanghulu {
+    width: 300px;
+    height: 320px;
+    left: 1084px;
+    top: 724px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.street .jianzhu .tanghulu .shenti {
+    width: 300px;
+    height: 320px;
+    background: url(../images/tanghulu.png?23) no-repeat center
+}
+
+.street .jianzhu .tanghulu .yuanyu {
+    width: 14px;
+    height: 51px;
+    background-position: -126px 0;
+    left: 184px;
+    top: 219px;
+    -webkit-animation: yuanyu 2s infinite;
+    animation: yuanyu 2s infinite
+}
+
+.street .jianzhu .tanghulu .yuguang {
+    width: 21px;
+    height: 56px;
+    background-position: -97px 0;
+    left: 182px;
+    top: 219px;
+    -webkit-animation: yuguang 2s infinite;
+    animation: yuguang 2s infinite
+}
+
+.street .jianzhu .tanghulu .zhishi1 {
+    left: 120px;
+    top: 0
+}
+
+.street .jianzhu .tanghulu .haveDatie {
+    background-position: 0 -152px;
+    left: 66px;
+    top: -44px
+}
+
+.street .jianzhu .tanghulu .haveCiqi {
+    background-position: 0 -76px;
+    left: 66px;
+    top: -44px
+}
+
+.street .jianzhu .tanghulu.active .shenti {
+    -webkit-animation: zouthl steps(14, end) .56s infinite;
+    animation: zouthl steps(14, end) .56s infinite
+}
+
+.street .jianzhu .tanghulu.rightFace .shenti {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.street .jianzhu .tanghulu.activeLeft .shenti {
+    -webkit-animation: zouthlLeft steps(14, end) .56s infinite;
+    animation: zouthlLeft steps(14, end) .56s infinite
+}
+
+.street .jianzhu .erhu {
+    width: 168px;
+    height: 193px;
+    background: url(../images/erhu.png?23) no-repeat;
+    left: 2165px;
+    top: 714px
+}
+
+.street .jianzhu .erhu .gebo {
+    width: 91px;
+    height: 51px;
+    background-position: -242px 0;
+    left: 0;
+    top: 86px;
+    -webkit-animation: erhu 1s infinite;
+    animation: erhu 1s infinite
+}
+
+.street .jianzhu .erhu .yinfu {
+    width: 56px;
+    height: 65px;
+    background-position: -161px 0;
+    right: 0;
+    top: 62px;
+    -webkit-animation: yinfu 1.2s infinite;
+    animation: yinfu 1.2s infinite
+}
+
+.street .jianzhu .zhulan {
+    width: 200px;
+    height: 300px;
+    left: 1917px;
+    top: 697px;
+    -webkit-animation: zhulan 3.72s linear infinite;
+    animation: zhulan 3.72s linear infinite
+}
+
+.street .jianzhu .zhulan .shenti {
+    width: 200px;
+    height: 300px;
+    -webkit-animation: zlzhuan 3.72s linear infinite;
+    animation: zlzhuan 3.72s linear infinite
+}
+
+.street .jianzhu .zhulan .shenti div {
+    width: 200px;
+    height: 300px;
+    background: url(../images/zouzl.png?23) no-repeat;
+    -webkit-animation: zouzl steps(9, end) .36s infinite;
+    animation: zouzl steps(9, end) .36s infinite
+}
+
+.street .jianzhu .zhulan .duihua {
+    left: 0;
+    top: -100px
+}
+
+.street .jianzhu .datie {
+    width: 165px;
+    height: 236px;
+    left: 2644px;
+    top: 670px
+}
+
+.street .jianzhu .datie .gebo {
+    width: 97px;
+    height: 82px;
+    background-position: -238px -72px;
+    left: 30px;
+    top: 44px;
+    -webkit-animation: datie .88s infinite;
+    animation: datie .88s infinite
+}
+
+.street .jianzhu .datie .shen {
+    width: 165px;
+    height: 236px;
+    background: url(../images/datiejiang.png?23)
+}
+
+.street .jianzhu .datie .tou {
+    width: 86px;
+    height: 126px;
+    background-position: -219px -172px;
+    left: 71px;
+    top: 0
+}
+
+.street .jianzhu .datie .huoxing {
+    width: 37px;
+    height: 45px;
+    background-position: -172px -85px;
+    left: 0;
+    top: 129px;
+    -webkit-animation: huoxing 1.32s infinite;
+    animation: huoxing 1.32s infinite
+}
+
+.street .jianzhu .datie .zhishi1 {
+    top: -85px;
+    left: 82px
+}
+
+.street .jianzhu .datie .duihua {
+    left: 0;
+    top: -150px
+}
+
+.street .jianzhu .tiemo {
+    width: 152px;
+    height: 196px;
+    left: 2935px;
+    top: 706px
+}
+
+.street .jianzhu .tiemo .gebo {
+    width: 77px;
+    height: 55px;
+    background-position: 0 0;
+    right: 10px;
+    top: 52px;
+    -webkit-animation: tiemo .76s infinite;
+    animation: tiemo .76s infinite
+}
+
+.street .jianzhu .tiemo .shenti {
+    width: 152px;
+    height: 196px;
+    background: url(../images/tiemo.png?23) no-repeat
+}
+
+.street .jianzhu .tiemo .duihua {
+    left: -50px;
+    top: -147px
+}
+
+.street .jianzhu .budian {
+    width: 150px;
+    height: 300px;
+    left: 3394px;
+    top: 641px;
+    -webkit-animation: budian 3.72s linear infinite;
+    animation: budian 3.72s linear infinite
+}
+
+.street .jianzhu .budian .shenti {
+    width: 150px;
+    height: 300px;
+    -webkit-animation: bdzhuan 3.72s linear infinite;
+    animation: bdzhuan 3.72s linear infinite
+}
+
+.street .jianzhu .budian .shenti div {
+    width: 150px;
+    height: 300px;
+    background: url(../images/zoubdlb.png?23) no-repeat;
+    -webkit-animation: zoubdlb steps(9, end) .36s infinite;
+    animation: zoubdlb steps(9, end) .36s infinite
+}
+
+.street .jianzhu .budian .duihua {
+    left: -45px;
+    top: -110px
+}
+
+.street .jianzhu .titou {
+    width: 274px;
+    height: 221px;
+    background: url(../images/titou.png?23) no-repeat;
+    left: 3604px;
+    top: 687px
+}
+
+.street .jianzhu .titou .gebo {
+    width: 104px;
+    height: 43px;
+    background-position: 0 -55px;
+    left: 134px;
+    top: 55px;
+    -webkit-animation: titou 1.32s infinite;
+    animation: titou 1.32s infinite
+}
+
+.street .jianzhu .titou .titou1 {
+    width: 77px;
+    height: 216px;
+    background: url(../images/titou1.png?23) no-repeat;
+    right: 0
+}
+
+.street .jianzhu .titou .duihua {
+    left: 70px;
+    top: -130px
+}
+
+.street .jianzhu .hejiu {
+    width: 286px;
+    height: 190px;
+    background: url(../images/hejiu.png?23) no-repeat;
+    left: 3967px;
+    top: 698px
+}
+
+.street .jianzhu .hejiu .gebo1 {
+    width: 84px;
+    height: 67px;
+    background-position: 0 -96px;
+    left: 15px;
+    top: 44px;
+    -webkit-animation: hejiua 1s infinite;
+    animation: hejiua 1s infinite
+}
+
+.street .jianzhu .hejiu .gebo2 {
+    width: 94px;
+    height: 56px;
+    background-position: -88px -97px;
+    left: 174px;
+    top: 59px;
+    -webkit-animation: hejiub 1s infinite;
+    animation: hejiub 1s infinite
+}
+
+.street .jianzhu .hejiu .duihua {
+    left: 80px;
+    top: -110px
+}
+
+.street .jianzhu .baomihua {
+    width: 255px;
+    height: 183px;
+    background: url(../images/baomihua.png?23) no-repeat;
+    left: 4338px;
+    top: 737px
+}
+
+.street .jianzhu .baomihua .yan {
+    width: 16px;
+    height: 45px;
+    background-position: -88px 0;
+    left: 86px;
+    top: 17px;
+    -webkit-animation: yan 2.44s infinite;
+    animation: yan 2.44s infinite
+}
+
+.street .jianzhu .baomihua .daizi {
+    width: 83px;
+    height: 82px;
+    background-position: -185px -84px;
+    left: 172px;
+    top: 100px
+}
+
+.street .jianzhu .baomihua .guang {
+    width: 60px;
+    height: 23px;
+    background-position: -120px -4px;
+    left: 114px;
+    top: 129px;
+    -webkit-animation: guang 1.24s infinite;
+    animation: guang 1.24s infinite
+}
+
+.street .jianzhu .baomihua .zhishi1 {
+    display: none
+}
+
+.street .jianzhu .baomihua .duihua {
+    left: -50px;
+    top: -150px
+}
+
+.street .jianzhu .baomihua .bmh_ceng {
+    width: 255px;
+    height: 183px;
+    left: 0;
+    top: 0
+}
+
+.street .jianzhu .ciqi {
+    width: 115px;
+    height: 219px;
+    left: 4930px;
+    top: 677px
+}
+
+.street .jianzhu .ciqi .gebo {
+    width: 79px;
+    height: 53px;
+    background-position: 0 -236px;
+    top: 83px;
+    -webkit-animation: ciqi 1s infinite;
+    animation: ciqi 1s infinite
+}
+
+.street .jianzhu .ciqi .shen {
+    background: url(../images/ciqi.png?23) no-repeat;
+    width: 115px;
+    height: 219px
+}
+
+.street .jianzhu .ciqi .zhishi1 {
+    left: 35px
+}
+
+.street .jianzhu .ciqi .duihua {
+    left: -45px;
+    top: -155px
+}
+
+.street .jianzhu .mao {
+    width: 50px;
+    height: 62px;
+    background-position: -3px -166px;
+    left: 5135px;
+    top: 837px
+}
+
+.street .jianzhu .zhaoxiang {
+    width: 169px;
+    height: 214px;
+    background: url(../images/zhaoxiang.png?23) no-repeat;
+    left: 6211px;
+    top: 600px
+}
+
+.street .jianzhu .zhaoxiang .zhaoxiang1 {
+    width: 100px;
+    height: 214px;
+    background: url(../images/zhaoxiang1.png?23) no-repeat;
+    left: 60px
+}
+
+.street .jianzhu .zhaoxiang .gebo {
+    width: 66px;
+    height: 48px;
+    background-position: -55px -166px;
+    right: 0;
+    top: 63px;
+    -webkit-animation: zhaoxiang 1.48s infinite;
+    animation: zhaoxiang 1.48s infinite
+}
+
+.street .jianzhu .yongzheng {
+    width: 255px;
+    height: 347px;
+    left: 6429px;
+    top: 688px
+}
+
+.street .jianzhu .yongzheng .gebo {
+    width: 61px;
+    height: 34px;
+    background-position: -134px -166px;
+    left: 130px;
+    top: 203px;
+    -webkit-animation: yongzheng 1.28s infinite;
+    animation: yongzheng 1.28s infinite
+}
+
+.street .jianzhu .yongzheng .shenti {
+    width: 130px;
+    height: 241px;
+    bottom: 0;
+    right: 0;
+    background: url(../images/yongzheng.png?23)
+}
+
+.street .jianzhu .yongzheng .xiangji {
+    width: 255px;
+    height: 347px;
+    background: url(../images/jiqi.png?23) no-repeat
+}
+
+.street .jianzhu .yongzheng .shanguang {
+    opacity: 0;
+    width: 62px;
+    height: 80px;
+    background-position: -232px -219px;
+    left: -1px;
+    top: 135px;
+    -webkit-animation: shanguang 1.84s infinite;
+    animation: shanguang 1.84s infinite
+}
+
+.street .jianzhu .yongzheng .zhishi {
+    left: 120px;
+    top: 0;
+    width: 70px;
+    height: 80px;
+    background-position: -425px -149px;
+    -webkit-animation: zhishi_yz 1.24s infinite;
+    animation: zhishi_yz 1.24s infinite
+}
+
+.street .jianzhu .yongzheng .maoyan {
+    opacity: 0;
+    width: 106px;
+    height: 170px;
+    background: url(../images/maoyan.png?23) no-repeat;
+    left: 0;
+    top: 0
+}
+
+.street .jianzhu .yongzheng .maoyan.active {
+    -webkit-animation: maoyan .8s forwards;
+    animation: maoyan .8s forwards
+}
+
+.street .jianzhu .yongzheng .shenti.zouRight {
+    -webkit-animation: zouyzRight .6s linear forwards;
+    animation: zouyzRight .6s linear forwards
+}
+
+.street .jianzhu .yazi {
+    width: 90px;
+    height: 53px;
+    background-position: -89px -236px;
+    left: 5608px;
+    top: 1134px
+}
+
+.street .jianzhu .wuya {
+    width: 203px;
+    height: 47px;
+    background: url(../images/wuya.png?23) no-repeat;
+    position: fixed;
+    left: 750px;
+    top: 417px
+}
+
+.street .jianzhu .wuya.active {
+    -webkit-animation: wuya 1.5s linear forwards;
+    animation: wuya 1.5s linear forwards
+}
+
+.street .jianzhu .taijian {
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    width: 200px;
+    height: 300px;
+    left: 240px;
+    top: 758px
+}
+
+.street .jianzhu .taijian .tjshen {
+    background: url(../images/s_tj.png?23) no-repeat center 24px;
+    width: 200px;
+    height: 300px
+}
+
+.street .jianzhu .taijian .tjtou {
+    display: none;
+    width: 98px;
+    height: 154px;
+    background: url(../images/tj_tou.png?23) no-repeat;
+    background-position: 0 0;
+    left: 51px;
+    top: 25px
+}
+
+.street .jianzhu .taijian .haveYu {
+    background-position: 0 0;
+    left: 5px;
+    top: -78px
+}
+
+.street .jianzhu .taijian .haveBmh {
+    background-position: 0 -228px;
+    left: 5px;
+    top: -78px
+}
+
+.street .jianzhu .taijian .duihua {
+    left: -20px;
+    top: -120px
+}
+
+.street .jianzhu .taijian .tjshen.leftFace {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.street .jianzhu .taijian .tjshen.active {
+    -webkit-animation: zoutj steps(15, end) .6s infinite;
+    animation: zoutj steps(15, end) .6s infinite
+}
+
+.street .jianzhu .taijian .tjshen.activeLeft {
+    -webkit-animation: zoutjLeft steps(15, end) .6s infinite;
+    animation: zoutjLeft steps(15, end) .6s infinite
+}
+
+.street .jianzhu .taijian .tjshen.tjhaveBmh {
+    background: url(../images/tjbmh.png?23) no-repeat center
+}
+
+.street .jianzhu .taijian .tjshen.tjhaveBmhRight {
+    -webkit-animation: tjhaveBmh steps(15, end) .6s infinite;
+    animation: tjhaveBmh steps(15, end) .6s infinite
+}
+
+.street .jianzhu .taijian .tjshen.tjhaveBmhLeft {
+    -webkit-animation: tjhaveBmhLeft steps(15, end) .6s infinite;
+    animation: tjhaveBmhLeft steps(15, end) .6s infinite
+}
+
+.street .jianzhu .taijian.zouRight {
+    -webkit-animation: zoutjRight .6s linear forwards;
+    animation: zoutjRight .6s linear forwards
+}
+
+.street .posBtn {
+    width: 750px;
+    height: 71px;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+.street .posBtn .left_btn {
+    width: 95px;
+    height: 96px;
+    background-position: 0 -143px;
+    bottom: 45px;
+    left: 204px
+}
+
+.street .posBtn .right_btn {
+    width: 95px;
+    height: 96px;
+    background-position: -95px -143px;
+    bottom: 45px;
+    right: 204px;
+    -webkit-user-select: none;
+    -moz-user-select: none
+}
+
+.street .posBtn .dir_btn.active {
+    -webkit-animation: rw_btn .2s forwards;
+    animation: rw_btn .2s forwards
+}
+
+.street .fast_ceng {
+    display: none;
+    background: url(../images/rwduihua.png?23) no-repeat center top;
+    width: 750px;
+    height: 1206px;
+    position: fixed;
+    left: 0;
+    top: 0
+}
+
+.street .fast_ceng .fast_con {
+    z-index: 8;
+    width: 750px;
+    height: 290px;
+    left: 0;
+    top: 440px
+}
+
+.street .fast_ceng .fast_con .pic {
+    background: url(../images/icon_rw.png?23)
+}
+
+.street .fast_ceng .fast_con .text {
+    color: #000;
+    font-size: 36px;
+    font-family: "STHeiti", "Microsoft Yahei";
+    line-height: 44px
+}
+
+.street .fast_ceng .others .pic {
+    width: 232px;
+    height: 285px;
+    right: 90px;
+    bottom: 0
+}
+
+.street .fast_ceng .others .text {
+    width: 340px;
+    left: 135px;
+    top: 115px;
+    line-height: 44px
+}
+
+.street .fast_ceng .others .text span {
+    font-weight: bold;
+    color: red
+}
+
+.street .fast_ceng .unshow {
+    display: none
+}
+
+.street .fast_ceng .tj .pic {
+    width: 157px;
+    height: 279px;
+    background-position: 0 0;
+    left: 50px;
+    bottom: 0
+}
+
+.street .fast_ceng .tj .text {
+    width: 340px;
+    left: 220px;
+    top: 115px
+}
+
+.street .fast_ceng .thl .pic, .street .fast_ceng .yu .pic {
+    background-position: -928px -315px
+}
+
+.street .fast_ceng .dt .pic {
+    background-position: -696px -315px
+}
+
+.street .fast_ceng .cq .pic {
+    background-position: -464px -315px
+}
+
+.street .fast_ceng .yz .pic {
+    background-position: -232px -315px
+}
+
+.street .fast_ceng .bmh .pic {
+    background-position: 0 -315px
+}
+
+.street .tanceng {
+    display: none;
+    width: 750px;
+    height: 1206px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(../images/tankuang.png?23) no-repeat
+}
+
+.street .tanceng .unshow {
+    display: none
+}
+
+.street .tanceng .pic {
+    background: url(../images/icon_q.png?23) no-repeat;
+    width: 263px;
+    height: 230px;
+    left: 243px;
+    top: 215px
+}
+
+.street .tanceng .text_con {
+    width: 440px;
+    height: 169px;
+    left: 160px;
+    top: 480px
+}
+
+.street .tanceng .l_btn {
+    width: 198px;
+    height: 78px;
+    background: url(../images/icon_q.png?23);
+    left: 150px;
+    top: 678px
+}
+
+.street .tanceng .r_btn {
+    width: 198px;
+    height: 78px;
+    background: url(../images/icon_q.png?23);
+    left: 390px;
+    top: 678px
+}
+
+.street .tanceng .m_btn {
+    width: 198px;
+    height: 78px;
+    background: url(../images/icon_q.png?23) -789px -470px;
+    left: 270px;
+    top: 678px
+}
+
+.street .tanceng .rw_btn.active {
+    -webkit-animation: rw_btn .2s forwards;
+    animation: rw_btn .2s forwards
+}
+
+.street .tanceng .close_btn {
+    width: 80px;
+    height: 73px;
+    background: url(../images/icon_q.png?23);
+    background-position: -791px -560px;
+    left: 329px;
+    top: 885px
+}
+
+.street .tanceng .q_dt .pic {
+    background-position: 0 0
+}
+
+.street .tanceng .q_dt .text_con {
+    background: url(../images/q1.png?23) no-repeat
+}
+
+.street .tanceng .q_dt .l_btn {
+    background-position: -526px -470px
+}
+
+.street .tanceng .q_dt .r_btn {
+    background-position: -526px -560px
+}
+
+.street .tanceng .a_dt .pic {
+    background-position: -270px 20px
+}
+
+.street .tanceng .a_dt .text_con {
+    background: url(../images/q11.png?23) no-repeat
+}
+
+.street .tanceng .q_cq .pic {
+    background-position: -535px 20px
+}
+
+.street .tanceng .q_cq .text_con {
+    background: url(../images/q2.png?23) no-repeat
+}
+
+.street .tanceng .q_cq .l_btn {
+    background-position: 0 -470px
+}
+
+.street .tanceng .q_cq .r_btn {
+    background-position: 0 -560px
+}
+
+.street .tanceng .a_cq .pic {
+    background-position: -798px 0
+}
+
+.street .tanceng .a_cq .text_con {
+    background: url(../images/q22.png?23) no-repeat
+}
+
+.street .tanceng .q_bmh .pic {
+    background-position: -268px -230px
+}
+
+.street .tanceng .q_bmh .text_con {
+    background: url(../images/q3.png?23) no-repeat
+}
+
+.street .tanceng .q_bmh .l_btn {
+    background-position: -263px -470px
+}
+
+.street .tanceng .q_bmh .r_btn {
+    background-position: -263px -560px
+}
+
+.street .tanceng .a_bmh .pic {
+    background-position: -535px -230px
+}
+
+.street .tanceng .a_bmh .text_con {
+    background: url(../images/q33.png?23) no-repeat 0 20px
+}
+
+.street .tanceng .a_yu .pic {
+    background-position: 0 -230px
+}
+
+.street .tanceng .a_yu .text_con {
+    background: url(../images/q_yu1.png?23) no-repeat
+}
+
+.street .tanceng.activeStart {
+    display: block;
+    -webkit-animation: tancengStart .6s ease-in-out forwards;
+    animation: tancengStart .6s ease-in-out forwards
+}
+
+.street .tanceng.activeEnd {
+    display: block;
+    -webkit-animation: tancengEnd .6s forwards;
+    animation: tancengEnd .6s forwards
+}
+
+.street.active .taijian {
+    -webkit-animation: tjstreet 2s linear forwards;
+    animation: tjstreet 2s linear forwards
+}
+
+.street .zhulan .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .zhulan .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .tiemo .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .tiemo .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .budian .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .budian .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .titou .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .titou .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .hejiu .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .hejiu .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .baomihua .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .baomihua .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .taijian .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .taijian .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .tanghulu .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .tanghulu .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .datie .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .datie .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .ciqi .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .ciqi .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.street .yongzheng .duihua.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.street .yongzheng .duihua.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.chodo2 {
+    display: none;
+    opacity: 0;
+    width: 750px;
+    height: 1206px;
+    background: url(../images/chodo2.jpg?23) no-repeat;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    font-family: "STHeiti", "Microsoft Yahei"
+}
+
+.chodo2 .icon4 {
+    background: url(../images/icon4.png?23) no-repeat
+}
+
+.chodo2 .gebo {
+    width: 43px;
+    height: 29px;
+    background-position: -480px 0;
+    left: 370px;
+    top: 497px;
+    -webkit-animation: yz_gebo .56s infinite;
+    animation: yz_gebo .56s infinite
+}
+
+.chodo2 .tou1 {
+    width: 127px;
+    height: 144px;
+    background-position: 0 0;
+    left: 174px;
+    top: 861px
+}
+
+.chodo2 .tou2 {
+    width: 117px;
+    height: 152px;
+    background-position: -127px 0;
+    left: 36px;
+    top: 982px
+}
+
+.chodo2 .tou3 {
+    width: 138px;
+    height: 140px;
+    background-position: -244px 0;
+    left: 454px;
+    top: 1007px
+}
+
+.chodo2 .tou4 {
+    opacity: 0;
+    width: 98px;
+    height: 153px;
+    background-position: -382px 0;
+    left: 519px;
+    top: 437px
+}
+
+.chodo2 .duihua_yz {
+    opacity: 0;
+    width: 236px;
+    height: 146px;
+    background: url(../images/duihua2.png?23);
+    left: 243px;
+    top: 250px
+}
+
+.chodo2 .duihua_yz p {
+    font-size: 24px;
+    line-height: 36px;
+    width: 200px;
+    height: 72px;
+    margin: 20px 0 0 18px
+}
+
+.chodo2 .duihua_yz p span {
+    font-weight: bold;
+    color: red
+}
+
+.chodo2 .duihua_r {
+    opacity: 0;
+    width: 191px;
+    height: 132px;
+    background: url(../images/duihuaqipao_r.png?23)
+}
+
+.chodo2 .duihua_r p {
+    font-size: 24px;
+    line-height: 36px;
+    width: 145px;
+    height: 72px;
+    margin: 16px 0 0 20px
+}
+
+.chodo2 .duihua_l {
+    opacity: 0;
+    width: 191px;
+    height: 132px;
+    background: url(../images/duihuaqipao_l.png?23)
+}
+
+.chodo2 .duihua_l p {
+    font-size: 24px;
+    line-height: 36px;
+    width: 145px;
+    height: 72px;
+    margin: 16px 0 0 25px
+}
+
+.chodo2 .tjduihua {
+    left: 466px;
+    top: 303px
+}
+
+.chodo2 .duihua1 {
+    left: 366px;
+    top: 917px
+}
+
+.chodo2 .duihua2 {
+    left: 75px;
+    top: 888px
+}
+
+.chodo2 .duihua3 {
+    left: 192px;
+    top: 752px
+}
+
+.chodo2.active {
+    -webkit-animation: chodob 1.5s forwards;
+    animation: chodob 1.5s forwards
+}
+
+.chodo2.active .duihua_yz.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.chodo2.active .duihua_yz.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.chodo2.active .duihua_r.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.chodo2.active .duihua_r.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.chodo2.active .duihua_l.start {
+    -webkit-animation: duihuaStart .56s forwards;
+    animation: duihuaStart .56s forwards
+}
+
+.chodo2.active .duihua_l.end {
+    -webkit-animation: duihuaEnd .32s forwards;
+    animation: duihuaEnd .32s forwards
+}
+
+.chodo2.active .tou1.active {
+    -webkit-animation: chodo_toua .56s infinite;
+    animation: chodo_toua .56s infinite
+}
+
+.chodo2.active .tou2.active {
+    -webkit-animation: chodo_toub .96s infinite;
+    animation: chodo_toub .96s infinite
+}
+
+.chodo2.active .tou3.active {
+    -webkit-animation: chodo_touc 1s infinite;
+    animation: chodo_touc 1s infinite
+}
+
+.shengzhi {
+    display: none;
+    width: 750px;
+    height: 1206px;
+    left: 0;
+    top: 0;
+    z-index: 5
+}
+
+.shengzhi .men {
+    width: 750px;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.shengzhi .men div {
+    width: 378px;
+    height: 100%;
+    top: 0
+}
+
+.shengzhi .men .left_men {
+    opacity: 0;
+    background: url(../images/men_left.png?23) no-repeat right center;
+    background-size: cover;
+    left: 0
+}
+
+.shengzhi .men .right_men {
+    opacity: 0;
+    background: url(../images/men_right.png?23) no-repeat left center;
+    background-size: cover;
+    right: 0
+}
+
+.shengzhi .men_ceng {
+    width: 750px;
+    height: 1206px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: url(../images/men_ceng.jpg?23)
+}
+
+.shengzhi .sz_con {
+    opacity: 0;
+    top: 100px;
+    left: 50px;
+    width: 650px;
+    height: 140px;
+    background: url(../images/shengzhi.jpg?23) no-repeat center 56px;
+    overflow: hidden
+}
+
+.shengzhi .sz_con .juanzhou {
+    width: 650px;
+    height: 70px;
+    background: url(../images/juanzhou.png?23) no-repeat;
+    left: 0
+}
+
+.shengzhi .sz_con .juanzhou1 {
+    top: 0
+}
+
+.shengzhi .sz_con .juanzhou2 {
+    bottom: 0
+}
+
+.shengzhi .sz_con .canjia_btn {
+    position: absolute;
+    left: 50%;
+    top: 585px;
+    margin-left: -218px;
+    width: 436px;
+    height: 136px;
+    background: url(../images/canjia.png?23) no-repeat
+}
+
+.shengzhi .btn5 {
+    opacity: 0;
+    width: 222px;
+    height: 96px;
+    top: 923px
+}
+
+.shengzhi .chuanzhi {
+    background: url(../images/chuanzhi.png?23) no-repeat;
+    left: 50%;
+    margin-left: -246px
+}
+
+.shengzhi .chongwan {
+    background: url(../images/chongwan.png?23) no-repeat;
+    right: 50%;
+    margin-right: -246px
+}
+
+.shengzhi .logo {
+    opacity: 0;
+    width: 351px;
+    height: 100px;
+    left: 200px;
+    top: 1047px;
+    background: url(../images/logo.png?23)
+}
+
+.shengzhi .canjia {
+    display: none;
+    width: 750px;
+    height: 1206px;
+    left: 0;
+    top: 0
+}
+
+.shengzhi .canjia iframe {
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.shengzhi .canjia .close_canjia {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    left: 50px;
+    top: 50px
+}
+
+.shengzhi.active .left_men {
+    -webkit-animation: guanmen_l .5s .5s ease-in-out forwards;
+    animation: guanmen_l .5s .5s ease-in-out forwards
+}
+
+.shengzhi.active .right_men {
+    -webkit-animation: guanmen_r .5s .5s ease-in-out forwards;
+    animation: guanmen_r .5s .5s ease-in-out forwards
+}
+
+.shengzhi.active .men_ceng {
+    -webkit-animation: men_ceng .5s 1s forwards;
+    animation: men_ceng .5s 1s forwards
+}
+
+.shengzhi.active .sz_con {
+    -webkit-animation: sz_con .96s 1s ease-in-out forwards;
+    animation: sz_con .96s 1s ease-in-out forwards
+}
+
+.shengzhi.active .canjia_btn {
+    -webkit-animation: canjia_btn .8s 1.96s infinite;
+    animation: canjia_btn .8s 1.96s infinite
+}
+
+.shengzhi.active .btn5 {
+    -webkit-animation: fivebtn .4s 1.96s forwards;
+    animation: fivebtn .4s 1.96s forwards
+}
+
+.shengzhi.active .logo {
+    -webkit-animation: logo .4s 1.96s forwards;
+    animation: logo .4s 1.96s forwards
+}
+
+.share_page {
+    display: none;
+    z-index: 9;
+    width: 750px;
+    height: 1206px;
+    left: 0;
+    top: 0;
+    background: url(../images/meng_02.png)
+}
+
+.share_page .share_con {
+    width: 208px;
+    height: 192px;
+    left: 268px;
+    top: 230px
+}
+
+.share_page .share_con .xiabanshen {
+    width: 208px;
+    height: 192px;
+    background: url(../images/xiabanshen.png) no-repeat
+}
+
+.share_page .share_con .shangbanshen {
+    width: 185px;
+    height: 137px;
+    background: url(../images/shangbanshen.png?23) no-repeat
+}
+
+.share_page .share_con .xian {
+    width: 66px;
+    height: 107px;
+    background: url(../images/laxian.png?23) no-repeat;
+    left: 110px;
+    top: 20px
+}
+
+.share_page .share_con .jian {
+    width: 109px;
+    height: 96px;
+    background: url(../images/jian.png?23) no-repeat;
+    right: 0;
+    top: 20px
+}
+
+.share_page.active .shangbanshen {
+    -webkit-animation: shangbanshen 1.6s infinite;
+    animation: shangbanshen 1.6s infinite
+}
+
+.share_page.active .jian {
+    -webkit-animation: jian 1.6s infinite;
+    animation: jian 1.6s infinite
+}
+
+.share_page.active .xian {
+    -webkit-animation: xian 1.6s infinite;
+    animation: xian 1.6s infinite
+}
