@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="80px" viewBox="0 0 80 80" version="1.1">
+  <g id="surface1">
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,92.54902%,93.333333%);fill-opacity:1;" d="M 19 0 L 20 0 L 20 80 L 19 80 Z M 19 0 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,92.54902%,93.333333%);fill-opacity:1;" d="M 39 0 L 40 0 L 40 80 L 39 80 Z M 39 0 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,92.54902%,93.333333%);fill-opacity:1;" d="M 59 0 L 60 0 L 60 80 L 59 80 Z M 59 0 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,92.54902%,93.333333%);fill-opacity:1;" d="M 0 19 L 0 20 L 80 20 L 80 19 Z M 0 19 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,92.54902%,93.333333%);fill-opacity:1;" d="M 0 39 L 0 40 L 80 40 L 80 39 Z M 0 39 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,92.54902%,93.333333%);fill-opacity:1;" d="M 0 59 L 0 60 L 80 60 L 80 59 Z M 0 59 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:#cccccc;fill-opacity:0.5;" d="M 79 0 L 80 0 L 80 80 L 79 80 Z M 79 0 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:#cccccc;fill-opacity:0.5;" d="M 80 79 L 80 80 L 0 80 L 0 79 Z M 80 79 "/>
+  </g>
+</svg>
