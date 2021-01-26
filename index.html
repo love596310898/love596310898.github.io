@@ -10,14 +10,15 @@
             padding: 0;
             margin: 0;
         }
-    
+
         body {
             height: 100vh;
         }
-    
+
         .app {
             height: 100%;
             display: flex;
+            flex-flow: column;
             justify-content: center;
             align-items: center;
         }
@@ -26,7 +27,12 @@
 
 <body>
     <div class="app">
-        <a href="./component/dist/index.html">个人组件</a>
+        <div>
+            <a href="./component/dist/index.html">个人组件</a>
+        </div>
+        <div>
+            <a href="./note/dist/index.html">个人笔记</a>
+        </div>
     </div>
 </body>
 
